@@ -32,3 +32,7 @@ jobs:
         # Install Catalog CLI
       - name: Install Catalog CLI
         run: npm i api-catalog-cli -g
+
+        # Install Catalog CLI
+      - name: Automation using Anypoint CLI
+        run: anypoint-cli-v4 account:user:describe --client_id 5061be79e0534c8cbc45bc343a60477f --client_secret B67a7A3c064c4f749A42a646FCd88c75
